@@ -32,7 +32,10 @@ class Previewer extends React.Component {
         </form>
         <div id="right-side">
           <h4>HTML</h4>
-          <div id="output">{marked(this.state.text)}</div>
+          <div
+            id="output"
+            dangerouslySetInnerHTML={{ __html: marked(this.state.text) }}
+          />
         </div>
       </div>
     );
