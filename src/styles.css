@@ -38,7 +38,7 @@ textarea {
 #output {
   width: 90%;
   background: aliceblue;
-  padding: 1em;
+  padding: 0 1em 1em;
   height: 80vh;
   overflow-y: scroll;
 }
