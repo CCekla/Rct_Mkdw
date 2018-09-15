@@ -1,3 +1,7 @@
+h4 {
+  text-align: center;
+}
+
 #root {
   font-family: Helvetica, sans-serif;
 }
@@ -10,4 +14,22 @@
 
 #output {
   font-size: 1em;
+}
+
+form {
+  width: 45%;
+}
+
+textarea {
+  width: 90%;
+  height: 80vh;
+  overflow-y: scroll;
+}
+
+#right-side {
+  width: 45%;
+}
+
+#output {
+  width: 90%;
 }

@@ -22,7 +22,7 @@ class Previewer extends React.Component {
     return (
       <div id="container">
         <form>
-          <h4 htmlFor="editor">Markdown</h4>
+          <h4>Markdown</h4>
           <textarea
             id="editor"
             value={this.state.text}
