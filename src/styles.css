@@ -24,6 +24,9 @@ textarea {
   width: 90%;
   height: 80vh;
   overflow-y: scroll;
+  font-size: 1em;
+  color: gray;
+  padding: 1em;
 }
 
 #right-side {
@@ -32,4 +35,8 @@ textarea {
 
 #output {
   width: 90%;
+  background: aliceblue;
+  padding: 1em;
+  height: 80vh;
+  overflow-y: scroll;
 }
