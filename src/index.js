@@ -1,5 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import marked from "marked";
 
 import "./styles.css";
 
@@ -31,7 +32,7 @@ class Previewer extends React.Component {
         </form>
         <div id="right-side">
           <h4>HTML</h4>
-          <div id="output">{this.state.text}</div>
+          <div id="output">{marked(this.state.text)}</div>
         </div>
       </div>
     );
