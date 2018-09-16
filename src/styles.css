@@ -49,11 +49,6 @@ footer p a {
   color: darkgray;
 }
 
-blockquote {
-  border-left: 3px solid lightseagreen;
-  padding-left: 2em;
-}
-
 pre {
   background: #fff;
   padding-top: 1em;
