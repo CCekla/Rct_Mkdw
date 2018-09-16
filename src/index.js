@@ -8,8 +8,10 @@ class Previewer extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      text: "sample text"
+      text:
+        "# Title h1 \n\n ## title h2 \n\n > A blockquote example \n\n * list item 1 \n * list item 2 \n\n\n     This is a code block.\n\n__bold text__\n\n[An example](http://google.com/ 'google') of inline link.\n\n Use the `inlineCodeExample()` function. \n\n![React Logo w/ Text](https://goo.gl/Umyytc)"
     };
+
     this.handleChange = this.handleChange.bind(this);
   }
 
@@ -33,7 +35,7 @@ class Previewer extends React.Component {
         <div id="right-side">
           <h4>HTML</h4>
           <div
-            id="output"
+            id="preview"
             dangerouslySetInnerHTML={{ __html: marked(this.state.text) }}
           />
         </div>

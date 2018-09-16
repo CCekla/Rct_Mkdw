@@ -1,5 +1,5 @@
 h4,
-h1,
+header,
 footer {
   text-align: center;
 }
@@ -14,10 +14,6 @@ body {
   justify-content: space-around;
 }
 
-#output {
-  font-size: 1em;
-}
-
 form {
   width: 45%;
 }
@@ -29,18 +25,20 @@ textarea {
   font-size: 1em;
   color: gray;
   padding: 1em;
+  font-family: "Courier New", Courier, monospace;
 }
 
 #right-side {
   width: 45%;
 }
 
-#output {
+#preview {
   width: 90%;
   background: aliceblue;
   padding: 0 1em 1em;
   height: 80vh;
   overflow-y: scroll;
+  text-align: left;
 }
 
 footer p {
@@ -49,4 +47,18 @@ footer p {
 
 footer p a {
   color: darkgray;
+}
+
+pre {
+  background: #fff;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+pre code {
+  color: gray;
+}
+
+code {
+  color: red;
 }
